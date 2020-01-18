@@ -50,28 +50,28 @@ Steps to install RVM:
 
 11) `rake db:migrate` to creates tables, migrations etc.
 
-9. Close everything and go to Fuzzapi/bin folder. "Dont Forget to type `rvm use 2.3.0`"
+12) Close everything and go to Fuzzapi/bin folder. "Dont Forget to type `rvm use 2.3.0`"
 
-10. open three tabs of terminal "Dont Forget to type `rvm use 2.3.0`" on all three tables first
+13) open three tabs of terminal "Dont Forget to type `rvm use 2.3.0`" on all three tables first
 
-11. `redis-server` in first tab, Note: If redis-server is missing then install by simply typing `apt-get install -y redis-server`
+14) `redis-server` in first tab, Note: If redis-server is missing then install by simply typing `apt-get install -y redis-server`
 
-12. In second tab `bundle exec sidekiq -r urFuzzAPIPath` 
+15) In second tab `bundle exec sidekiq -r urFuzzAPIPath` 
 
-13. In third tab `rails s` then visit `localhost:3000` and scan your sites
+16) In third tab `rails s` then visit `localhost:3000` and scan your sites
 
 Fuzzapi comes with `Docker` to simplify installation processing. Following commands will setup application using `Docker`.
 
-1. Clone the repository into your local machine
+1) Clone the repository into your local machine
 
-2. `cd /path/Fuzzapi`, move to Fuzzapi directory
+2) `cd /path/Fuzzapi`, move to Fuzzapi directory
 
-3. Install Docker in your local machine
+3) Install Docker in your local machine
 
-4. Run `docker-compose build` to build the image locally.
+4) Run `docker-compose build` to build the image locally.
 
-5. Run `docker-compose up` to run the server.
+5) Run `docker-compose up` to run the server.
 
-6. Open `http://localhost:3000` in browser which should point to the application url
+6) Open `http://localhost:3000` in browser which should point to the application url
 
 Fuzzapi uses [API_Fuzzer](https://github.com/lalithr95/API_Fuzzer) gem.
