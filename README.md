@@ -38,11 +38,11 @@ Steps to install RVM:
  8) now we need to install ruby-2.3.0, as this tool is compatible to only 2.3.0. so follow this commands,
  `rvm pkg install openssl #now while installing you will see final directory of install open ssl like this "Installing openssl to /usr/local/rvm/usr" note this directory", you will need this`
  
- rvm remove 2.3.0 #if you installed`
+ `rvm remove 2.3.0 #if you installed`
  
 `rvm install 2.3.0 --with-openssl-dir=/usr/local/rvm/usr #After "dir=" is your openssl installation directory`
 
- rvm use 2.3.0  #Evrerytime you need to use while you shift to new tab of terminal or you open new window of terminal`
+ `rvm use 2.3.0  #Evrerytime you need to use while you shift to new tab of terminal or you open new window of terminal`
  
  9) `cd /path/Fuzzapi/bin`, move to Fuzzapi directory
 
